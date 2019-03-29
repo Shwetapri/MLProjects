@@ -1,7 +1,8 @@
 Prediction of CPU burst times using Machine Learning Algorithms
 
 The implementation of CPU-Scheduling algorithms such as Shortest-Job-First (SJF) and Shortest Remaining Time First (SRTF) require knowing the length of the CPU-bursts for processes in the ready queue. 
-Dataset used is Auvergrid workload which has more than 4 lakh jobs. 
+Dataset used is "GWA-T-4 Auver Grid" which has more than 4 lakh jobs. 
+http://gwa.ewi.tudelft.nl/datasets/gwa-t-4-auvergrid
 
 These steps are summarized as following: 
 1. Preparing/creating the dataset: The dataset is analysed and the columns having missing values and those having a zero correlation coefficient are dropped and the final dataset is created.
